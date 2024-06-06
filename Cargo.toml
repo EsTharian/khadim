@@ -1,0 +1,13 @@
+[package]
+name = "khadim"
+version = "0.0.1"
+about = "Your legal servent"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = [
+  "derive",
+  "env",
+  "string",
+  "wrap_help",
+] }
